@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countries</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+  <script src="https://unpkg.com/darkmode-js"></script>
+  
+</head>
+
+<body>
+  <header>
+    <div class="hero">
+      <h2 class="heading">Where in the world?</h2>
+      <span class="mode">
+        <p class="theme-changer"> <i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode</p>
+      </span>
+    </div>
+  </header>
+  <main>
+    <div class="search-filter-container">
+      <div class="search-container">
+        <i id="search-icon"class="fa-solid fa-magnifying-glass"></i>
+        <input class="search-bar" type="text" placeholder="Search for a country...">
+      </div>
+      <select class="filter-by-region">
+        <option value="default" hidden>Filter by Region</option>
+        <option value="Africa">Africa</option>
+        <option value="America">America</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+    </div>
+
+    <div class="countries-container"></div>
+  </main>
+  <div class="cardSection">
+    <div class="shimmer"></div>
+    <div class="shimmer"></div>
+    <div class="shimmer"></div>
+    <div class="shimmer"></div>
+    <div class="shimmer"></div>
+  </div>
+</body>
+
+</html>
